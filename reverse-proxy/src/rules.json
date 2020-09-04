@@ -1,0 +1,10 @@
+{
+  "rules": [
+    {
+      "pathname": "/api",
+      "method": ["GET", "POST", "OPTIONS"],
+      "dest": "http://api-server:3000"
+    },
+    { "pathname": "/**", "dest": "http://client-server:5000" }
+  ]
+}

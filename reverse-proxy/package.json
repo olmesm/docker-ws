@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "start": "npx micro-proxy -r src/rules.json -p 9000"
+  }
+}
